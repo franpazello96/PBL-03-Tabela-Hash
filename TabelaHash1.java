@@ -10,12 +10,6 @@ public class TabelaHash1 extends TabelaHashAbs {
         super(tamanho);
     }
 
-    /**
-     * Implementa a função de hash usando método polinomial com base 31
-     * Esta função gera um código hash multiplicando cada caractere por uma potência de 31
-     * @param chave String a ser transformada em índice
-     * @return índice calculado pela função hash
-     */
     @Override
     protected int funcaoHash(String chave) {
         int codigoHash = 0;
